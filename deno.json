@@ -1,0 +1,7 @@
+{
+  "name": "@mojojs/pg",
+  "exports": "./src/pg.ts",
+  "imports": {
+    "stack-utils": "npm:stack-utils"
+  }
+}

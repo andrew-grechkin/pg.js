@@ -1,6 +1,6 @@
-import type {QueryConfig} from 'pg';
+import type {QueryConfig} from 'npm:pg';
 import Path from '@mojojs/path';
-import StackUtils from 'stack-utils';
+import StackUtils from 'npm:stack-utils';
 
 export function throwWithContext(error: any, query: QueryConfig): never {
   if (error.position !== undefined) {

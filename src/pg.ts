@@ -1,10 +1,10 @@
-import {Base} from './base.js';
-import {Database} from './database.js';
-import {Migrations} from './migrations.js';
-import {Results} from './results.js';
-import {throwWithContext} from './util.js';
+import {Base} from './base.ts';
+import {Database} from './database.ts';
+import {Migrations} from './migrations.ts';
+import {Results} from './results.ts';
+import {throwWithContext} from './util.ts';
 import {urlSplit} from '@mojojs/util';
-import pg from 'pg';
+import pg from 'npm:pg';
 
 export type PgConfig = string | pg.PoolConfig | Pg;
 
